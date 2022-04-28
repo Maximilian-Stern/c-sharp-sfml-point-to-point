@@ -152,7 +152,7 @@ namespace GameData
             rectangle.Origin = new Vector2f(width/2, height/2);
             rectangle.Position = position;
             rectangle.FillColor = Color.Transparent;
-            rectangle.OutlineColor = Color.Red;
+            rectangle.OutlineColor = color;
             rectangle.OutlineThickness = 3;
             window.Draw(rectangle);
         }
